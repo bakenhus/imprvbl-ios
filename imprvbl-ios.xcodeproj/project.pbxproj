@@ -1,0 +1,1014 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		883A9ED92C805FCC009FF149 /* imprvbl_iosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883A9ED82C805FCC009FF149 /* imprvbl_iosApp.swift */; };
+		883A9EDB2C805FCC009FF149 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883A9EDA2C805FCC009FF149 /* ContentView.swift */; };
+		883A9EDD2C805FCE009FF149 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 883A9EDC2C805FCE009FF149 /* Assets.xcassets */; };
+		883A9EE02C805FCE009FF149 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 883A9EDF2C805FCE009FF149 /* Preview Assets.xcassets */; };
+		883A9EEA2C805FCE009FF149 /* imprvbl_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883A9EE92C805FCE009FF149 /* imprvbl_iosTests.swift */; };
+		883A9EF42C805FCE009FF149 /* imprvbl_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883A9EF32C805FCE009FF149 /* imprvbl_iosUITests.swift */; };
+		883A9EF62C805FCE009FF149 /* imprvbl_iosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883A9EF52C805FCE009FF149 /* imprvbl_iosUITestsLaunchTests.swift */; };
+		883A9EFC2C805FCE009FF149 /* imprvbl-ios Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 883A9EFB2C805FCE009FF149 /* imprvbl-ios Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		883A9F012C805FCE009FF149 /* imprvbl_iosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883A9F002C805FCE009FF149 /* imprvbl_iosApp.swift */; };
+		883A9F032C805FCE009FF149 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883A9F022C805FCE009FF149 /* ContentView.swift */; };
+		883A9F052C805FCF009FF149 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 883A9F042C805FCF009FF149 /* Assets.xcassets */; };
+		883A9F082C805FCF009FF149 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 883A9F072C805FCF009FF149 /* Preview Assets.xcassets */; };
+		883A9F122C805FCF009FF149 /* imprvbl_ios_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883A9F112C805FCF009FF149 /* imprvbl_ios_Watch_AppTests.swift */; };
+		883A9F1C2C805FCF009FF149 /* imprvbl_ios_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883A9F1B2C805FCF009FF149 /* imprvbl_ios_Watch_AppUITests.swift */; };
+		883A9F1E2C805FCF009FF149 /* imprvbl_ios_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883A9F1D2C805FCF009FF149 /* imprvbl_ios_Watch_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		883A9EE62C805FCE009FF149 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 883A9ECD2C805FCC009FF149 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 883A9ED42C805FCC009FF149;
+			remoteInfo = "imprvbl-ios";
+		};
+		883A9EF02C805FCE009FF149 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 883A9ECD2C805FCC009FF149 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 883A9ED42C805FCC009FF149;
+			remoteInfo = "imprvbl-ios";
+		};
+		883A9EFD2C805FCE009FF149 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 883A9ECD2C805FCC009FF149 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 883A9EFA2C805FCE009FF149;
+			remoteInfo = "imprvbl-ios Watch App";
+		};
+		883A9F0E2C805FCF009FF149 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 883A9ECD2C805FCC009FF149 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 883A9EFA2C805FCE009FF149;
+			remoteInfo = "imprvbl-ios Watch App";
+		};
+		883A9F182C805FCF009FF149 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 883A9ECD2C805FCC009FF149 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 883A9EFA2C805FCE009FF149;
+			remoteInfo = "imprvbl-ios Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		883A9F242C805FCF009FF149 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				883A9EFC2C805FCE009FF149 /* imprvbl-ios Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		883A9ED52C805FCC009FF149 /* imprvbl-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "imprvbl-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		883A9ED82C805FCC009FF149 /* imprvbl_iosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imprvbl_iosApp.swift; sourceTree = "<group>"; };
+		883A9EDA2C805FCC009FF149 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		883A9EDC2C805FCE009FF149 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		883A9EDF2C805FCE009FF149 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		883A9EE52C805FCE009FF149 /* imprvbl-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "imprvbl-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		883A9EE92C805FCE009FF149 /* imprvbl_iosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imprvbl_iosTests.swift; sourceTree = "<group>"; };
+		883A9EEF2C805FCE009FF149 /* imprvbl-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "imprvbl-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		883A9EF32C805FCE009FF149 /* imprvbl_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imprvbl_iosUITests.swift; sourceTree = "<group>"; };
+		883A9EF52C805FCE009FF149 /* imprvbl_iosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imprvbl_iosUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		883A9EFB2C805FCE009FF149 /* imprvbl-ios Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "imprvbl-ios Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		883A9F002C805FCE009FF149 /* imprvbl_iosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imprvbl_iosApp.swift; sourceTree = "<group>"; };
+		883A9F022C805FCE009FF149 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		883A9F042C805FCF009FF149 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		883A9F072C805FCF009FF149 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		883A9F0D2C805FCF009FF149 /* imprvbl-ios Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "imprvbl-ios Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		883A9F112C805FCF009FF149 /* imprvbl_ios_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imprvbl_ios_Watch_AppTests.swift; sourceTree = "<group>"; };
+		883A9F172C805FCF009FF149 /* imprvbl-ios Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "imprvbl-ios Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		883A9F1B2C805FCF009FF149 /* imprvbl_ios_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imprvbl_ios_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		883A9F1D2C805FCF009FF149 /* imprvbl_ios_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imprvbl_ios_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		883A9ED22C805FCC009FF149 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		883A9EE22C805FCE009FF149 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		883A9EEC2C805FCE009FF149 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		883A9EF82C805FCE009FF149 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		883A9F0A2C805FCF009FF149 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		883A9F142C805FCF009FF149 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		883A9ECC2C805FCC009FF149 = {
+			isa = PBXGroup;
+			children = (
+				883A9ED72C805FCC009FF149 /* imprvbl-ios */,
+				883A9EE82C805FCE009FF149 /* imprvbl-iosTests */,
+				883A9EF22C805FCE009FF149 /* imprvbl-iosUITests */,
+				883A9EFF2C805FCE009FF149 /* imprvbl-ios Watch App */,
+				883A9F102C805FCF009FF149 /* imprvbl-ios Watch AppTests */,
+				883A9F1A2C805FCF009FF149 /* imprvbl-ios Watch AppUITests */,
+				883A9ED62C805FCC009FF149 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		883A9ED62C805FCC009FF149 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				883A9ED52C805FCC009FF149 /* imprvbl-ios.app */,
+				883A9EE52C805FCE009FF149 /* imprvbl-iosTests.xctest */,
+				883A9EEF2C805FCE009FF149 /* imprvbl-iosUITests.xctest */,
+				883A9EFB2C805FCE009FF149 /* imprvbl-ios Watch App.app */,
+				883A9F0D2C805FCF009FF149 /* imprvbl-ios Watch AppTests.xctest */,
+				883A9F172C805FCF009FF149 /* imprvbl-ios Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		883A9ED72C805FCC009FF149 /* imprvbl-ios */ = {
+			isa = PBXGroup;
+			children = (
+				883A9ED82C805FCC009FF149 /* imprvbl_iosApp.swift */,
+				883A9EDA2C805FCC009FF149 /* ContentView.swift */,
+				883A9EDC2C805FCE009FF149 /* Assets.xcassets */,
+				883A9EDE2C805FCE009FF149 /* Preview Content */,
+			);
+			path = "imprvbl-ios";
+			sourceTree = "<group>";
+		};
+		883A9EDE2C805FCE009FF149 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				883A9EDF2C805FCE009FF149 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		883A9EE82C805FCE009FF149 /* imprvbl-iosTests */ = {
+			isa = PBXGroup;
+			children = (
+				883A9EE92C805FCE009FF149 /* imprvbl_iosTests.swift */,
+			);
+			path = "imprvbl-iosTests";
+			sourceTree = "<group>";
+		};
+		883A9EF22C805FCE009FF149 /* imprvbl-iosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				883A9EF32C805FCE009FF149 /* imprvbl_iosUITests.swift */,
+				883A9EF52C805FCE009FF149 /* imprvbl_iosUITestsLaunchTests.swift */,
+			);
+			path = "imprvbl-iosUITests";
+			sourceTree = "<group>";
+		};
+		883A9EFF2C805FCE009FF149 /* imprvbl-ios Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				883A9F002C805FCE009FF149 /* imprvbl_iosApp.swift */,
+				883A9F022C805FCE009FF149 /* ContentView.swift */,
+				883A9F042C805FCF009FF149 /* Assets.xcassets */,
+				883A9F062C805FCF009FF149 /* Preview Content */,
+			);
+			path = "imprvbl-ios Watch App";
+			sourceTree = "<group>";
+		};
+		883A9F062C805FCF009FF149 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				883A9F072C805FCF009FF149 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		883A9F102C805FCF009FF149 /* imprvbl-ios Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				883A9F112C805FCF009FF149 /* imprvbl_ios_Watch_AppTests.swift */,
+			);
+			path = "imprvbl-ios Watch AppTests";
+			sourceTree = "<group>";
+		};
+		883A9F1A2C805FCF009FF149 /* imprvbl-ios Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				883A9F1B2C805FCF009FF149 /* imprvbl_ios_Watch_AppUITests.swift */,
+				883A9F1D2C805FCF009FF149 /* imprvbl_ios_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "imprvbl-ios Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		883A9ED42C805FCC009FF149 /* imprvbl-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 883A9F252C805FCF009FF149 /* Build configuration list for PBXNativeTarget "imprvbl-ios" */;
+			buildPhases = (
+				883A9ED12C805FCC009FF149 /* Sources */,
+				883A9ED22C805FCC009FF149 /* Frameworks */,
+				883A9ED32C805FCC009FF149 /* Resources */,
+				883A9F242C805FCF009FF149 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				883A9EFE2C805FCE009FF149 /* PBXTargetDependency */,
+			);
+			name = "imprvbl-ios";
+			productName = "imprvbl-ios";
+			productReference = 883A9ED52C805FCC009FF149 /* imprvbl-ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		883A9EE42C805FCE009FF149 /* imprvbl-iosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 883A9F282C805FCF009FF149 /* Build configuration list for PBXNativeTarget "imprvbl-iosTests" */;
+			buildPhases = (
+				883A9EE12C805FCE009FF149 /* Sources */,
+				883A9EE22C805FCE009FF149 /* Frameworks */,
+				883A9EE32C805FCE009FF149 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				883A9EE72C805FCE009FF149 /* PBXTargetDependency */,
+			);
+			name = "imprvbl-iosTests";
+			productName = "imprvbl-iosTests";
+			productReference = 883A9EE52C805FCE009FF149 /* imprvbl-iosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		883A9EEE2C805FCE009FF149 /* imprvbl-iosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 883A9F2B2C805FCF009FF149 /* Build configuration list for PBXNativeTarget "imprvbl-iosUITests" */;
+			buildPhases = (
+				883A9EEB2C805FCE009FF149 /* Sources */,
+				883A9EEC2C805FCE009FF149 /* Frameworks */,
+				883A9EED2C805FCE009FF149 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				883A9EF12C805FCE009FF149 /* PBXTargetDependency */,
+			);
+			name = "imprvbl-iosUITests";
+			productName = "imprvbl-iosUITests";
+			productReference = 883A9EEF2C805FCE009FF149 /* imprvbl-iosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		883A9EFA2C805FCE009FF149 /* imprvbl-ios Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 883A9F212C805FCF009FF149 /* Build configuration list for PBXNativeTarget "imprvbl-ios Watch App" */;
+			buildPhases = (
+				883A9EF72C805FCE009FF149 /* Sources */,
+				883A9EF82C805FCE009FF149 /* Frameworks */,
+				883A9EF92C805FCE009FF149 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "imprvbl-ios Watch App";
+			productName = "imprvbl-ios Watch App";
+			productReference = 883A9EFB2C805FCE009FF149 /* imprvbl-ios Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		883A9F0C2C805FCF009FF149 /* imprvbl-ios Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 883A9F2E2C805FCF009FF149 /* Build configuration list for PBXNativeTarget "imprvbl-ios Watch AppTests" */;
+			buildPhases = (
+				883A9F092C805FCF009FF149 /* Sources */,
+				883A9F0A2C805FCF009FF149 /* Frameworks */,
+				883A9F0B2C805FCF009FF149 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				883A9F0F2C805FCF009FF149 /* PBXTargetDependency */,
+			);
+			name = "imprvbl-ios Watch AppTests";
+			productName = "imprvbl-ios Watch AppTests";
+			productReference = 883A9F0D2C805FCF009FF149 /* imprvbl-ios Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		883A9F162C805FCF009FF149 /* imprvbl-ios Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 883A9F312C805FCF009FF149 /* Build configuration list for PBXNativeTarget "imprvbl-ios Watch AppUITests" */;
+			buildPhases = (
+				883A9F132C805FCF009FF149 /* Sources */,
+				883A9F142C805FCF009FF149 /* Frameworks */,
+				883A9F152C805FCF009FF149 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				883A9F192C805FCF009FF149 /* PBXTargetDependency */,
+			);
+			name = "imprvbl-ios Watch AppUITests";
+			productName = "imprvbl-ios Watch AppUITests";
+			productReference = 883A9F172C805FCF009FF149 /* imprvbl-ios Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		883A9ECD2C805FCC009FF149 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					883A9ED42C805FCC009FF149 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					883A9EE42C805FCE009FF149 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 883A9ED42C805FCC009FF149;
+					};
+					883A9EEE2C805FCE009FF149 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 883A9ED42C805FCC009FF149;
+					};
+					883A9EFA2C805FCE009FF149 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					883A9F0C2C805FCF009FF149 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 883A9EFA2C805FCE009FF149;
+					};
+					883A9F162C805FCF009FF149 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 883A9EFA2C805FCE009FF149;
+					};
+				};
+			};
+			buildConfigurationList = 883A9ED02C805FCC009FF149 /* Build configuration list for PBXProject "imprvbl-ios" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 883A9ECC2C805FCC009FF149;
+			productRefGroup = 883A9ED62C805FCC009FF149 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				883A9ED42C805FCC009FF149 /* imprvbl-ios */,
+				883A9EE42C805FCE009FF149 /* imprvbl-iosTests */,
+				883A9EEE2C805FCE009FF149 /* imprvbl-iosUITests */,
+				883A9EFA2C805FCE009FF149 /* imprvbl-ios Watch App */,
+				883A9F0C2C805FCF009FF149 /* imprvbl-ios Watch AppTests */,
+				883A9F162C805FCF009FF149 /* imprvbl-ios Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		883A9ED32C805FCC009FF149 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				883A9EE02C805FCE009FF149 /* Preview Assets.xcassets in Resources */,
+				883A9EDD2C805FCE009FF149 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		883A9EE32C805FCE009FF149 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		883A9EED2C805FCE009FF149 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		883A9EF92C805FCE009FF149 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				883A9F082C805FCF009FF149 /* Preview Assets.xcassets in Resources */,
+				883A9F052C805FCF009FF149 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		883A9F0B2C805FCF009FF149 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		883A9F152C805FCF009FF149 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		883A9ED12C805FCC009FF149 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				883A9EDB2C805FCC009FF149 /* ContentView.swift in Sources */,
+				883A9ED92C805FCC009FF149 /* imprvbl_iosApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		883A9EE12C805FCE009FF149 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				883A9EEA2C805FCE009FF149 /* imprvbl_iosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		883A9EEB2C805FCE009FF149 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				883A9EF42C805FCE009FF149 /* imprvbl_iosUITests.swift in Sources */,
+				883A9EF62C805FCE009FF149 /* imprvbl_iosUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		883A9EF72C805FCE009FF149 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				883A9F032C805FCE009FF149 /* ContentView.swift in Sources */,
+				883A9F012C805FCE009FF149 /* imprvbl_iosApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		883A9F092C805FCF009FF149 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				883A9F122C805FCF009FF149 /* imprvbl_ios_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		883A9F132C805FCF009FF149 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				883A9F1C2C805FCF009FF149 /* imprvbl_ios_Watch_AppUITests.swift in Sources */,
+				883A9F1E2C805FCF009FF149 /* imprvbl_ios_Watch_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		883A9EE72C805FCE009FF149 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 883A9ED42C805FCC009FF149 /* imprvbl-ios */;
+			targetProxy = 883A9EE62C805FCE009FF149 /* PBXContainerItemProxy */;
+		};
+		883A9EF12C805FCE009FF149 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 883A9ED42C805FCC009FF149 /* imprvbl-ios */;
+			targetProxy = 883A9EF02C805FCE009FF149 /* PBXContainerItemProxy */;
+		};
+		883A9EFE2C805FCE009FF149 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 883A9EFA2C805FCE009FF149 /* imprvbl-ios Watch App */;
+			targetProxy = 883A9EFD2C805FCE009FF149 /* PBXContainerItemProxy */;
+		};
+		883A9F0F2C805FCF009FF149 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 883A9EFA2C805FCE009FF149 /* imprvbl-ios Watch App */;
+			targetProxy = 883A9F0E2C805FCF009FF149 /* PBXContainerItemProxy */;
+		};
+		883A9F192C805FCF009FF149 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 883A9EFA2C805FCE009FF149 /* imprvbl-ios Watch App */;
+			targetProxy = 883A9F182C805FCF009FF149 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		883A9F1F2C805FCF009FF149 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		883A9F202C805FCF009FF149 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		883A9F222C805FCF009FF149 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"imprvbl-ios Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "imprvbl-ios";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "us.bakenh.imprvbl-ios";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "us.bakenh.imprvbl-ios.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Debug;
+		};
+		883A9F232C805FCF009FF149 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"imprvbl-ios Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "imprvbl-ios";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "us.bakenh.imprvbl-ios";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "us.bakenh.imprvbl-ios.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Release;
+		};
+		883A9F262C805FCF009FF149 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"imprvbl-ios/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "imprvbl-ios";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "us.bakenh.imprvbl-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		883A9F272C805FCF009FF149 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"imprvbl-ios/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "imprvbl-ios";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "us.bakenh.imprvbl-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		883A9F292C805FCF009FF149 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "us.bakenh.imprvbl-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/imprvbl-ios.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/imprvbl-ios";
+			};
+			name = Debug;
+		};
+		883A9F2A2C805FCF009FF149 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "us.bakenh.imprvbl-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/imprvbl-ios.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/imprvbl-ios";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		883A9F2C2C805FCF009FF149 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "us.bakenh.imprvbl-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "imprvbl-ios";
+			};
+			name = Debug;
+		};
+		883A9F2D2C805FCF009FF149 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "us.bakenh.imprvbl-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "imprvbl-ios";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		883A9F2F2C805FCF009FF149 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "us.bakenh.imprvbl-ios-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/imprvbl-ios Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/imprvbl-ios Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Debug;
+		};
+		883A9F302C805FCF009FF149 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "us.bakenh.imprvbl-ios-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/imprvbl-ios Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/imprvbl-ios Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Release;
+		};
+		883A9F322C805FCF009FF149 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "us.bakenh.imprvbl-ios-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "imprvbl-ios Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Debug;
+		};
+		883A9F332C805FCF009FF149 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "us.bakenh.imprvbl-ios-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "imprvbl-ios Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		883A9ED02C805FCC009FF149 /* Build configuration list for PBXProject "imprvbl-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				883A9F1F2C805FCF009FF149 /* Debug */,
+				883A9F202C805FCF009FF149 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		883A9F212C805FCF009FF149 /* Build configuration list for PBXNativeTarget "imprvbl-ios Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				883A9F222C805FCF009FF149 /* Debug */,
+				883A9F232C805FCF009FF149 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		883A9F252C805FCF009FF149 /* Build configuration list for PBXNativeTarget "imprvbl-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				883A9F262C805FCF009FF149 /* Debug */,
+				883A9F272C805FCF009FF149 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		883A9F282C805FCF009FF149 /* Build configuration list for PBXNativeTarget "imprvbl-iosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				883A9F292C805FCF009FF149 /* Debug */,
+				883A9F2A2C805FCF009FF149 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		883A9F2B2C805FCF009FF149 /* Build configuration list for PBXNativeTarget "imprvbl-iosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				883A9F2C2C805FCF009FF149 /* Debug */,
+				883A9F2D2C805FCF009FF149 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		883A9F2E2C805FCF009FF149 /* Build configuration list for PBXNativeTarget "imprvbl-ios Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				883A9F2F2C805FCF009FF149 /* Debug */,
+				883A9F302C805FCF009FF149 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		883A9F312C805FCF009FF149 /* Build configuration list for PBXNativeTarget "imprvbl-ios Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				883A9F322C805FCF009FF149 /* Debug */,
+				883A9F332C805FCF009FF149 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 883A9ECD2C805FCC009FF149 /* Project object */;
+}
