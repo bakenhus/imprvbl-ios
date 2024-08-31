@@ -1,10 +1,3 @@
-//
-//  imprvbl_iosApp.swift
-//  imprvbl-ios Watch App
-//
-//  Created by Jesse on 29.08.24.
-//
-
 import SwiftUI
 
 @main

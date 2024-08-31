@@ -11,17 +11,16 @@
 		883A9EDB2C805FCC009FF149 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883A9EDA2C805FCC009FF149 /* ContentView.swift */; };
 		883A9EDD2C805FCE009FF149 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 883A9EDC2C805FCE009FF149 /* Assets.xcassets */; };
 		883A9EE02C805FCE009FF149 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 883A9EDF2C805FCE009FF149 /* Preview Assets.xcassets */; };
-		883A9EEA2C805FCE009FF149 /* imprvbl_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883A9EE92C805FCE009FF149 /* imprvbl_iosTests.swift */; };
-		883A9EF42C805FCE009FF149 /* imprvbl_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883A9EF32C805FCE009FF149 /* imprvbl_iosUITests.swift */; };
-		883A9EF62C805FCE009FF149 /* imprvbl_iosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883A9EF52C805FCE009FF149 /* imprvbl_iosUITestsLaunchTests.swift */; };
-		883A9EFC2C805FCE009FF149 /* imprvbl-ios Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 883A9EFB2C805FCE009FF149 /* imprvbl-ios Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		883A9EFC2C805FCE009FF149 /* IMPRVBL.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 883A9EFB2C805FCE009FF149 /* IMPRVBL.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		883A9F012C805FCE009FF149 /* imprvbl_iosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883A9F002C805FCE009FF149 /* imprvbl_iosApp.swift */; };
 		883A9F032C805FCE009FF149 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883A9F022C805FCE009FF149 /* ContentView.swift */; };
 		883A9F052C805FCF009FF149 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 883A9F042C805FCF009FF149 /* Assets.xcassets */; };
 		883A9F082C805FCF009FF149 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 883A9F072C805FCF009FF149 /* Preview Assets.xcassets */; };
-		883A9F122C805FCF009FF149 /* imprvbl_ios_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883A9F112C805FCF009FF149 /* imprvbl_ios_Watch_AppTests.swift */; };
-		883A9F1C2C805FCF009FF149 /* imprvbl_ios_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883A9F1B2C805FCF009FF149 /* imprvbl_ios_Watch_AppUITests.swift */; };
-		883A9F1E2C805FCF009FF149 /* imprvbl_ios_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883A9F1D2C805FCF009FF149 /* imprvbl_ios_Watch_AppUITestsLaunchTests.swift */; };
+		88AA5B612C80B84C00483A9B /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88AA5B602C80B84C00483A9B /* DashboardView.swift */; };
+		88AA5B632C80B87000483A9B /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88AA5B622C80B87000483A9B /* SettingsView.swift */; };
+		88AA5B672C82F07300483A9B /* DashboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88AA5B662C82F07300483A9B /* DashboardViewModel.swift */; };
+		88AA5B6F2C82F30400483A9B /* WebClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88AA5B6E2C82F30400483A9B /* WebClient.swift */; };
+		88AA5B712C82F33700483A9B /* CalendarService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88AA5B702C82F33700483A9B /* CalendarService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,7 +68,7 @@
 			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
 			dstSubfolderSpec = 16;
 			files = (
-				883A9EFC2C805FCE009FF149 /* imprvbl-ios Watch App.app in Embed Watch Content */,
+				883A9EFC2C805FCE009FF149 /* IMPRVBL.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -83,20 +82,19 @@
 		883A9EDC2C805FCE009FF149 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		883A9EDF2C805FCE009FF149 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		883A9EE52C805FCE009FF149 /* imprvbl-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "imprvbl-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		883A9EE92C805FCE009FF149 /* imprvbl_iosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imprvbl_iosTests.swift; sourceTree = "<group>"; };
 		883A9EEF2C805FCE009FF149 /* imprvbl-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "imprvbl-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		883A9EF32C805FCE009FF149 /* imprvbl_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imprvbl_iosUITests.swift; sourceTree = "<group>"; };
-		883A9EF52C805FCE009FF149 /* imprvbl_iosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imprvbl_iosUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		883A9EFB2C805FCE009FF149 /* imprvbl-ios Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "imprvbl-ios Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		883A9EFB2C805FCE009FF149 /* IMPRVBL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IMPRVBL.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		883A9F002C805FCE009FF149 /* imprvbl_iosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imprvbl_iosApp.swift; sourceTree = "<group>"; };
 		883A9F022C805FCE009FF149 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		883A9F042C805FCF009FF149 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		883A9F072C805FCF009FF149 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		883A9F0D2C805FCF009FF149 /* imprvbl-ios Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "imprvbl-ios Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		883A9F112C805FCF009FF149 /* imprvbl_ios_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imprvbl_ios_Watch_AppTests.swift; sourceTree = "<group>"; };
 		883A9F172C805FCF009FF149 /* imprvbl-ios Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "imprvbl-ios Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		883A9F1B2C805FCF009FF149 /* imprvbl_ios_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imprvbl_ios_Watch_AppUITests.swift; sourceTree = "<group>"; };
-		883A9F1D2C805FCF009FF149 /* imprvbl_ios_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imprvbl_ios_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		88AA5B602C80B84C00483A9B /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		88AA5B622C80B87000483A9B /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		88AA5B662C82F07300483A9B /* DashboardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewModel.swift; sourceTree = "<group>"; };
+		88AA5B6E2C82F30400483A9B /* WebClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebClient.swift; sourceTree = "<group>"; };
+		88AA5B702C82F33700483A9B /* CalendarService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,11 +147,7 @@
 			isa = PBXGroup;
 			children = (
 				883A9ED72C805FCC009FF149 /* imprvbl-ios */,
-				883A9EE82C805FCE009FF149 /* imprvbl-iosTests */,
-				883A9EF22C805FCE009FF149 /* imprvbl-iosUITests */,
 				883A9EFF2C805FCE009FF149 /* imprvbl-ios Watch App */,
-				883A9F102C805FCF009FF149 /* imprvbl-ios Watch AppTests */,
-				883A9F1A2C805FCF009FF149 /* imprvbl-ios Watch AppUITests */,
 				883A9ED62C805FCC009FF149 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -164,7 +158,7 @@
 				883A9ED52C805FCC009FF149 /* imprvbl-ios.app */,
 				883A9EE52C805FCE009FF149 /* imprvbl-iosTests.xctest */,
 				883A9EEF2C805FCE009FF149 /* imprvbl-iosUITests.xctest */,
-				883A9EFB2C805FCE009FF149 /* imprvbl-ios Watch App.app */,
+				883A9EFB2C805FCE009FF149 /* IMPRVBL.app */,
 				883A9F0D2C805FCF009FF149 /* imprvbl-ios Watch AppTests.xctest */,
 				883A9F172C805FCF009FF149 /* imprvbl-ios Watch AppUITests.xctest */,
 			);
@@ -174,6 +168,10 @@
 		883A9ED72C805FCC009FF149 /* imprvbl-ios */ = {
 			isa = PBXGroup;
 			children = (
+				88AA5B6C2C82F26000483A9B /* Service */,
+				88AA5B6A2C82F21E00483A9B /* WebClient */,
+				88AA5B692C82F20200483A9B /* ViewModel */,
+				88AA5B682C82F1B300483A9B /* View */,
 				883A9ED82C805FCC009FF149 /* imprvbl_iosApp.swift */,
 				883A9EDA2C805FCC009FF149 /* ContentView.swift */,
 				883A9EDC2C805FCE009FF149 /* Assets.xcassets */,
@@ -188,23 +186,6 @@
 				883A9EDF2C805FCE009FF149 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		883A9EE82C805FCE009FF149 /* imprvbl-iosTests */ = {
-			isa = PBXGroup;
-			children = (
-				883A9EE92C805FCE009FF149 /* imprvbl_iosTests.swift */,
-			);
-			path = "imprvbl-iosTests";
-			sourceTree = "<group>";
-		};
-		883A9EF22C805FCE009FF149 /* imprvbl-iosUITests */ = {
-			isa = PBXGroup;
-			children = (
-				883A9EF32C805FCE009FF149 /* imprvbl_iosUITests.swift */,
-				883A9EF52C805FCE009FF149 /* imprvbl_iosUITestsLaunchTests.swift */,
-			);
-			path = "imprvbl-iosUITests";
 			sourceTree = "<group>";
 		};
 		883A9EFF2C805FCE009FF149 /* imprvbl-ios Watch App */ = {
@@ -226,21 +207,37 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		883A9F102C805FCF009FF149 /* imprvbl-ios Watch AppTests */ = {
+		88AA5B682C82F1B300483A9B /* View */ = {
 			isa = PBXGroup;
 			children = (
-				883A9F112C805FCF009FF149 /* imprvbl_ios_Watch_AppTests.swift */,
+				88AA5B602C80B84C00483A9B /* DashboardView.swift */,
+				88AA5B622C80B87000483A9B /* SettingsView.swift */,
 			);
-			path = "imprvbl-ios Watch AppTests";
+			path = View;
 			sourceTree = "<group>";
 		};
-		883A9F1A2C805FCF009FF149 /* imprvbl-ios Watch AppUITests */ = {
+		88AA5B692C82F20200483A9B /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				883A9F1B2C805FCF009FF149 /* imprvbl_ios_Watch_AppUITests.swift */,
-				883A9F1D2C805FCF009FF149 /* imprvbl_ios_Watch_AppUITestsLaunchTests.swift */,
+				88AA5B662C82F07300483A9B /* DashboardViewModel.swift */,
 			);
-			path = "imprvbl-ios Watch AppUITests";
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		88AA5B6A2C82F21E00483A9B /* WebClient */ = {
+			isa = PBXGroup;
+			children = (
+				88AA5B6E2C82F30400483A9B /* WebClient.swift */,
+			);
+			path = WebClient;
+			sourceTree = "<group>";
+		};
+		88AA5B6C2C82F26000483A9B /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				88AA5B702C82F33700483A9B /* CalendarService.swift */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -315,7 +312,7 @@
 			);
 			name = "imprvbl-ios Watch App";
 			productName = "imprvbl-ios Watch App";
-			productReference = 883A9EFB2C805FCE009FF149 /* imprvbl-ios Watch App.app */;
+			productReference = 883A9EFB2C805FCE009FF149 /* IMPRVBL.app */;
 			productType = "com.apple.product-type.application";
 		};
 		883A9F0C2C805FCF009FF149 /* imprvbl-ios Watch AppTests */ = {
@@ -466,7 +463,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				883A9EDB2C805FCC009FF149 /* ContentView.swift in Sources */,
+				88AA5B672C82F07300483A9B /* DashboardViewModel.swift in Sources */,
+				88AA5B632C80B87000483A9B /* SettingsView.swift in Sources */,
+				88AA5B612C80B84C00483A9B /* DashboardView.swift in Sources */,
 				883A9ED92C805FCC009FF149 /* imprvbl_iosApp.swift in Sources */,
+				88AA5B712C82F33700483A9B /* CalendarService.swift in Sources */,
+				88AA5B6F2C82F30400483A9B /* WebClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -474,7 +476,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				883A9EEA2C805FCE009FF149 /* imprvbl_iosTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,8 +483,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				883A9EF42C805FCE009FF149 /* imprvbl_iosUITests.swift in Sources */,
-				883A9EF62C805FCE009FF149 /* imprvbl_iosUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -500,7 +499,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				883A9F122C805FCF009FF149 /* imprvbl_ios_Watch_AppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -508,8 +506,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				883A9F1C2C805FCF009FF149 /* imprvbl_ios_Watch_AppUITests.swift in Sources */,
-				883A9F1E2C805FCF009FF149 /* imprvbl_ios_Watch_AppUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -668,7 +664,6 @@
 				DEVELOPMENT_ASSET_PATHS = "\"imprvbl-ios Watch App/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "imprvbl-ios";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "us.bakenh.imprvbl-ios";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -677,7 +672,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "us.bakenh.imprvbl-ios.watchkitapp";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = IMPRVBL;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -697,7 +692,6 @@
 				DEVELOPMENT_ASSET_PATHS = "\"imprvbl-ios Watch App/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "imprvbl-ios";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "us.bakenh.imprvbl-ios";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -706,7 +700,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "us.bakenh.imprvbl-ios.watchkitapp";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = IMPRVBL;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -728,7 +722,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"imprvbl-ios/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "imprvbl-ios";
+				INFOPLIST_KEY_CFBundleDisplayName = IMPRVBL;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -760,7 +754,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"imprvbl-ios/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "imprvbl-ios";
+				INFOPLIST_KEY_CFBundleDisplayName = IMPRVBL;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

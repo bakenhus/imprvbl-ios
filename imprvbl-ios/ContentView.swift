@@ -1,21 +1,18 @@
-//
-//  ContentView.swift
-//  imprvbl-ios
-//
-//  Created by Jesse on 29.08.24.
-//
-
 import SwiftUI
 
 struct ContentView: View {
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        TabView {
+            DashboardView()
+                .tabItem {
+                    Label("Übersicht", systemImage: "book.closed.fill")
+                }
+            SettingsView()
+                .tabItem {
+                    Label("Profil", systemImage: "person.fill")
+                }
         }
-        .padding()
     }
 }
 

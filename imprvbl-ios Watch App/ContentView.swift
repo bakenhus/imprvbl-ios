@@ -1,19 +1,9 @@
-//
-//  ContentView.swift
-//  imprvbl-ios Watch App
-//
-//  Created by Jesse on 29.08.24.
-//
-
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        ScrollView {
+            Text("Hallo Welt!")
         }
         .padding()
     }
